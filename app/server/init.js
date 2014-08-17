@@ -12,8 +12,6 @@ var fs = require("fs"),
 // function to do extra initialization before starting web server
 function webInit(site, serverOptions) {
 	logger.info("app webInit");
-	logger.info("initializing app_results");
-	require("./app_results").initialize(site, serverOptions);
 	require("./api_handler").initialize(site, serverOptions);
 
 	fwInit.webInit(site, serverOptions, fwConfig);
