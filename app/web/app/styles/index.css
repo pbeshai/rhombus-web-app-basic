@@ -1,5 +1,2 @@
 /*-- Framework CSS ---*/
 @import "../../framework/styles/index.styl";
-
-@import"../apps/Warmup/styles/index.styl";
-@import"../apps/RecognitionSegments/styles/index.styl";
